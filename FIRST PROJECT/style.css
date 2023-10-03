@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    background-color: #f1f1f1;
+    
+}a
+*{
+
+    font-family: montserrat;
+    padding: 0;
+}
+.enroll{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.top{
+   width:  700px;
+   background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+.top img{
+    width: 100%;
+    
+}
+.center h3{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    text-align: centerwe;
+    font-family: montserrat;
+}
+.login{
+    padding-bottom: 70px;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input{
+    width: 380px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px;
+    border-radius: 10px;
+    border-color: gray;
+
+}
+.input h3{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: montserrat;
+}
+.type{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    margin-top: 20px;
+}
+.box input{
+    width: 300px;
+    margin-bottom: 15px;
+    height: 35px;
+    border-style: solid;
+    border-width: 0.5px;
+   border-radius: 7px;
+   padding-left: 10px;
+}
+
+.box label{
+    font-family: montserrat;
+    font-size: 13px;
+}
+.button{
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+}
+.button button{
+    width: 200px;
+    background-color: #f9a602;
+    height: 30px;
+   font-weight: bold;
+   border-radius: 8px;
+    border-color: transparent;
+    font-family: montserrat;
+    color: black;
+    font-size: 13px;
+    
+}
+.link p{
+    margin-top: 9px;
+    text-align: center;
+    font-family: montserrat;
+    font-size: 12px;
+    
+}
+.link p a{
+    text-decoration: none;
+    font-size: 12px;
+}
+@media screen and  (max-width:600px) {
+    .link p a{
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .type{
+        display: flex;
+        justify-content: center;
+    }
+    .box label{
+        font-family: montserrat;
+        font-size: 12px;
+    }
+    .box input{
+        width: 280px;
+        margin-bottom: 15px;
+        height: 35px;
+        border-style: solid;
+        border-width: 1px;
+       border-radius: 7px;
+       padding-left: 10px;
+    }
+    .top{
+        justify-content: center;
+        margin: auto;
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    .input{
+        width: 260px;
+        border-style: solid;
+        border-width: 0.5px;
+        padding: 20px;
+        border-radius: 10px;
+        border-color: black;
+    
+    }
+    .enroll{
+        justify-content: center;
+        display: flex;
+        
+        width: 100%;
+    }
+    .input{
+        border-color: gray;
+        width: 290px;
+        border-style: solid;
+        border-width: 0.8px;
+    }
+    .button button{
+        height: 30px;
+        width: 250px;
+    }
+}
