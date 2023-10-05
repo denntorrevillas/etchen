@@ -1,0 +1,231 @@
+body{
+    margin: 0;
+   
+  
+}
+*{
+    padding: 0;
+}
+.top{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.image img{
+    width: 70px;
+    height: 70px;
+}
+.left{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    width: 60%;
+}
+.text h1{
+    padding-left: 9px;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.text h1 span{
+    font-size: 18px;
+}
+.navbar a{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    margin-right:70px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+}
+.campus{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.campus img{
+    width: 100%;
+
+}
+.content{
+    width: 20%;
+}
+.content video{
+    width: 100%;
+}
+.vmgo{
+    margin-top: -2%;
+    background-color: #721013;
+}
+.vids{
+    background-color: #721013;
+    display: flex;
+    justify-content: center;
+    
+}
+.vids div{
+    width: 25%;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 8px;
+   
+}
+.vids div video{
+    width: 100%;
+    
+}
+.vmgo p{
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header{
+    padding-top: 5%;
+}
+.header h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.audio{
+    margin-top: 3%;
+    
+}
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.one div{
+    background-color: #f9a602;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20PX;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 11px;
+}
+.audio h1{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    color: #f1f1f1;
+}
+.pics{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.pics img{
+    width: 24%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.photos{
+    padding-bottom: 12%;
+    margin-top: 8%;
+}
+.photos h1{
+    text-align: center;
+    font-size: 50px;
+    color: #f1f1f1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.campuss{
+    display: none;
+}
+.pics div{
+   width:27%;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+.pics img{
+    width: 100%;
+}
+
+@media screen and (max-width:600px) {
+    .right{
+        display: none;
+       ;
+    }
+    .left{
+        width: 90%;
+    }
+    .one{
+        display: inline-block;
+        justify-content: center;
+        
+    }
+   .one{
+    width: 100%;
+   }
+   .one div audio{
+    width: 100%;
+   }
+    .vids{
+        display: inline-block;
+        justify-content: center;
+      
+       
+    }
+    .vids video{
+        width: 95%;
+    }
+
+    .vids div{
+    width: 88%;
+    margin-bottom: 7%;
+    
+    }
+    .vmgo{
+        justify-content: center;
+    }
+    .header{
+        padding: 7px;
+    }
+    .header h1{
+        font-size: 25px;
+    }
+    .pics{
+        display: block;
+    }
+.pics div{
+    width: 85%;
+    margin-bottom: 8%;
+}
+.pics img{
+    width: 100%;
+}
+
+    .text h1{
+        font-size: 16px;
+    }
+    .photos h1{
+        font-size: 30px;
+    }
+    .campuss{
+        display: block;
+       
+      
+      justify-content: center;
+    }
+    .campuss img{
+        width: 100%;
+    }
+    .campus{
+        display: none;
+    }
+    .top{
+        padding-bottom: 10px;
+    }
+}
